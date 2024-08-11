@@ -1,0 +1,38 @@
+/* buffer.css */
+
+.card-container img {
+    object-fit: cover;
+    transition: transform 0.5s;
+  }
+  
+  .card-container .hover:scale-110 {
+    transition: transform 0.5s;
+  }
+  
+  .card-container .hover-right {
+    transition: right 1s ease;
+  }
+  
+  .card-container .hover-opacity {
+    transition: opacity 0.3s ease;
+  }
+  
+  .card-container .ping-animate {
+    animation: ping 1s infinite;
+  }
+  
+  @keyframes ping {
+    0% {
+      transform: scale(0);
+      opacity: 1;
+    }
+    75% {
+      transform: scale(1);
+      opacity: 0;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 0;
+    }
+  }
+  

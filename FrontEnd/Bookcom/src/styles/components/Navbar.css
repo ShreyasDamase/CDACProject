@@ -1,0 +1,62 @@
+/* Navbar */
+.navbar {
+    @apply  bg-gradient-to-r from-teal-400 via-blue-400 to-purple-400 text-white fixed w-full top-0 left-0 z-50 flex items-center justify-between p-4 shadow-md;
+    height: 80px; /* Adjust height according to your needs */
+}
+
+/* Navbar container */
+.navbar-container {
+    @apply flex justify-between items-center w-full;
+}
+
+/* Navbar brand */
+.navbar-brand {
+    @apply text-3xl font-extrabold;
+}
+
+/* Navbar links (desktop) */
+.navbar-links {
+    @apply flex gap-4;
+}
+
+/* Navbar item styles */
+.nav-items {
+    @apply flex gap-4;
+}
+
+.nav-link, .dropdown-link {
+    @apply text-white px-4 py-2 rounded-md transition-colors duration-300 flex items-center gap-2;
+}
+
+/* Hover and active states */
+.nav-link.active, .nav-link:hover, .dropdown-link:hover {
+    @apply bg-blue-700 text-white;
+}
+
+/* Dropdown menu styles */
+.dropdown-menu {
+    @apply absolute top-full right-0 w-48 bg-gradient-to-r from-gray-200 via-indigo-400 to-indigo-600 hidden flex-col gap-2 text-black rounded-md shadow-md;
+    top: 100%; /* Ensure dropdown is positioned below the navbar */
+}
+
+.dropdown-menu.block {
+    @apply flex;
+}
+
+
+.dropdown-items {
+    @apply flex flex-col;
+}
+
+.dropdown-link {
+    @apply text-white px-4 py-2 rounded-md transition-colors duration-300 flex items-center gap-2;
+}
+
+.dropdown-link:hover {
+    @apply bg-blue-700;
+}
+
+/* Sign out button styles */
+.sign-out {
+    @apply px-4 py-2;
+}

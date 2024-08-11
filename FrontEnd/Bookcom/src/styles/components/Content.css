@@ -1,0 +1,17 @@
+/* CSS */
+.modal-content {
+    max-width: 90%; /* Maximum width of the modal */
+    width: 100%; /* Full width for smaller screens */
+    max-height: 80vh; /* Limit height to avoid overflow */
+    overflow-y: auto; /* Add scroll for overflowing content */
+    padding: 1rem; /* Padding inside the modal */
+  }
+  
+  .modal-title {
+    font-size: 1.25rem; /* Adjust title font size */
+  }
+  
+  .modal-input {
+    font-size: 0.875rem; /* Adjust input font size */
+  }
+  
