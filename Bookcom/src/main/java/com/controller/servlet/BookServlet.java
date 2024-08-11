@@ -431,8 +431,8 @@ public class BookServlet extends HttpServlet {
                      message.setText(body);
                  }
                  // specify E-mail address of Sender and Receiver
-                 Address sender = new InternetAddress("omkarhalgi90@gmail.com");
-                 Address receiver = new InternetAddress("omkarhalgi50@gmail.com");
+                 Address sender = new InternetAddress("shreyasdamase@gmail.com");
+                 Address receiver = new InternetAddress("shreyasdamse@gmail.com");
                  message.setFrom(sender);
                  message.setRecipient(Message.RecipientType.TO,
                                       receiver);
